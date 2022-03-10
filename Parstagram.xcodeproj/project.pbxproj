@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		560E6B9F27D9C64300B8BB29 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560E6B9E27D9C64300B8BB29 /* CameraViewController.swift */; };
-		560E6BA127D9C67D00B8BB29 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560E6BA027D9C67D00B8BB29 /* FeedViewController.swift */; };
+		560E6BA327D9D0CD00B8BB29 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560E6BA227D9D0CD00B8BB29 /* FeedViewController.swift */; };
+		560E6BA527D9D33B00B8BB29 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560E6BA427D9D33B00B8BB29 /* PostCell.swift */; };
 		5666ADD527D9A542005A23C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5666ADD427D9A542005A23C0 /* AppDelegate.swift */; };
 		5666ADD727D9A542005A23C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5666ADD627D9A542005A23C0 /* SceneDelegate.swift */; };
 		5666ADDC27D9A542005A23C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5666ADDA27D9A542005A23C0 /* Main.storyboard */; };
@@ -44,7 +45,8 @@
 		11256F70FC286976737FE724 /* Pods-ParstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramTests.debug.xcconfig"; path = "Target Support Files/Pods-ParstagramTests/Pods-ParstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F431C5B6F4F98988EC96C4D /* Pods-Parstagram-ParstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram-ParstagramUITests.release.xcconfig"; path = "Target Support Files/Pods-Parstagram-ParstagramUITests/Pods-Parstagram-ParstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		560E6B9E27D9C64300B8BB29 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
-		560E6BA027D9C67D00B8BB29 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		560E6BA227D9D0CD00B8BB29 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		560E6BA427D9D33B00B8BB29 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		5666ADD127D9A542005A23C0 /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5666ADD427D9A542005A23C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5666ADD627D9A542005A23C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -141,7 +143,8 @@
 				5666ADE227D9A543005A23C0 /* Info.plist */,
 				5666AE0427D9A80C005A23C0 /* LoginViewController.swift */,
 				560E6B9E27D9C64300B8BB29 /* CameraViewController.swift */,
-				560E6BA027D9C67D00B8BB29 /* FeedViewController.swift */,
+				560E6BA227D9D0CD00B8BB29 /* FeedViewController.swift */,
+				560E6BA427D9D33B00B8BB29 /* PostCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -414,9 +417,10 @@
 			files = (
 				5666AE0527D9A80C005A23C0 /* LoginViewController.swift in Sources */,
 				560E6B9F27D9C64300B8BB29 /* CameraViewController.swift in Sources */,
-				560E6BA127D9C67D00B8BB29 /* FeedViewController.swift in Sources */,
+				560E6BA327D9D0CD00B8BB29 /* FeedViewController.swift in Sources */,
 				5666ADD527D9A542005A23C0 /* AppDelegate.swift in Sources */,
 				5666ADD727D9A542005A23C0 /* SceneDelegate.swift in Sources */,
+				560E6BA527D9D33B00B8BB29 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
