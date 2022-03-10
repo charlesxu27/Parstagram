@@ -23,4 +23,4 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/charlesxu27/Parstagram/blob/main/instagram_screen_recording.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' width=250/>
+<img src='https://github.com/charlesxu27/Parstagram/blob/main/parstagram_screen_recording.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' width=250/>
