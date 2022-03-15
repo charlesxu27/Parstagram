@@ -17,7 +17,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.tableView.reloadData()
         tableView.delegate = self
         tableView.dataSource = self
         
@@ -30,8 +30,9 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         super.viewDidAppear(animated)
         
         let query = PFQuery(className: "Posts")
+        query.order(byDescending: "createdAt")
         query.includeKeys(["author", "comments", "comments.author"])
-        query.limit = 30
+        query.limit = 50
         
         query.findObjectsInBackground { (posts, error) in
             if posts != nil {
