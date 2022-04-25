@@ -1,4 +1,4 @@
-# Parstagram - Part II
+# Parstagram
 
 By Charles Xu
 
